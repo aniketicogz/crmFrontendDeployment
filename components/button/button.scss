@@ -1,0 +1,93 @@
+// DEFAULT BUTTON STYLING
+.btn {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+    background-color: var(--primary-btn-bg-color);
+    border: 1px solid var(--primary-btn-bg-color);
+    color: var(---primary-btn-text-color);
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+    white-space: nowrap;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s ease-in-out;
+    }
+}
+
+// PRIMARY BUTTON STYLING
+.btn-primary {
+    background-color: var(---primary-btn-bg-color);
+    border-color: var(---primary-btn-bg-color);
+    color: var(---primary-btn-text-color);
+}
+
+// SECONDARY BUTTON STYLING
+.btn-secondary {
+    background-color: var(---secondary-btn-bg-color);
+    border-color: var(---secondary-btn-bg-color);
+    color: var(--secondary-btn-text-color);
+}
+
+.btn-alert {
+    background-color: var(--button-bg-color);
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-error-primary {
+    background-color: var(--error-color);
+    border-color: var(--error-color);
+    color: var(--button-text-color);
+}
+
+.btn-error-secondary {
+    background-color: var(--button-bg-color);
+    border-color: var(--error-color);
+    color: var(--error-color);
+}
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.btn-large {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+.btn-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.editBtWrapper{
+    font-size: 14px;
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    padding: 0.4em 1em;
+
+}
+
+.iconImg{
+    display:inline-block;
+    width:20px;
+    height:auto;
+    vertical-align:middle;
+}
+
+.deleteBtWrapper{
+    font-size: 14px;
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 0.4em 1em;
+}

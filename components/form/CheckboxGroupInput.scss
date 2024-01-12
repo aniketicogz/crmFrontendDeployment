@@ -1,0 +1,16 @@
+// CheckboxGroup.scss
+.checkbox-group {
+    .group-title {
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+
+        input {
+            margin-right: 8px;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+.datepicker_wrapper {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+    margin-bottom: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 4px;
+    height: 40px;
+    .datepicker_section {
+        .datepicker {
+            .date_title {
+                color: #000000 !important;
+            }
+        }
+    }
+}
+
+.rdrCalendarWrapper {
+    position: absolute;
+    top: 90px;
+    left: 20px;
+    z-index: 99999 !important;
+}

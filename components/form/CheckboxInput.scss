@@ -1,0 +1,17 @@
+// Checkbox.scss
+.checkbox {
+    label {
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        input {
+            margin-right: 8px;
+        }
+
+        &.disabled {
+            cursor: not-allowed;
+            color: #777;
+        }
+    }
+}

@@ -1,0 +1,43 @@
+.app-header {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    transition: box-shadow 0.2s linear;
+    z-index: 1020;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .navbar-header {
+        background-color: transparent;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+        .navbar-brand {
+            display: flex;
+            background-color: transparent;
+            height: 40px;
+            width: 100%;
+        }
+    }
+
+    .navbar-nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color: transparent;
+        padding: 0 10px;
+    }
+}
